@@ -44,6 +44,7 @@ greetBtn.addEventListener("click", () => {
 
 // Clear output button — already working as a starter example
 clearBtn.addEventListener("click", () => {
+  nameInput.value = "";
   output.textContent = "Output will appear here.";
 });
 
